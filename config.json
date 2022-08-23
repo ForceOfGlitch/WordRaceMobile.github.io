@@ -1,0 +1,83 @@
+{
+	"b_debug": false,
+	"flower": {
+		"radius min and max": [96, 128],
+		"spawn horizontal range": 350,
+		"count spawn min and max": [15, 20], "": [15, 20],
+		"count spawn min and max1": [5, 5],
+		"nectar": {
+			"spawn count min and max": [0, 5],
+			"size": 0.2, "": "factor",
+			"spawn radius": [56, null, 56, 56, 56, 56, 56, 56],
+			"fade time": 4, "": "factor"
+		},
+		"vanishing speed": 0.1
+	},
+	
+	"bee": {
+		"size": 0.2, "": "factor",
+		"speed": 400,
+		"smooth": 0.0001, "": "0 - off; > 0 = on; [0; 1]",
+		"wings": {
+			"speed": 50,
+			"offset": 30
+		},
+		"add speed": 1.1, "": "factor",
+		"collision radius": 1.5, "": "factor"
+	},
+	
+	"camera": {
+		"speed": 0.4, "": "[0; 1]",
+		"offset": 0.1, "": "[0; 1]"
+	},
+	
+	"web": {
+		"size": 0.4, "": "factor",
+		"offset x": 300,
+		"paws": {
+			"speed": 20,
+			"offset": 10
+		},
+		"head": {
+			"speed": 10,
+			"offset": 0.1
+		}
+	},
+	
+	"hive":
+	{
+		"size": 0.5, "": "factor",
+		"bee speed": 100
+	},
+	
+	"hud": {
+		"transition speed": 4, "": "factor",
+		"nectars coords": [
+			[7, 484, 371, 367],
+			[112, 596, 241, 240],
+			[21, 399, 493, 491],
+			[-13, 748, 411, 406],
+			[1064, 548, 496, 493],
+			[1003, 659, 226, 216],
+			[910, 511, 346, 341],
+			[1233, 810, 249, 246],
+			[1283, 924, 181, 180],
+			[1044, 1148, 496, 493],
+			[983, 1295, 357, 356],
+			[1132, 1410, 260, 248],
+			[-46, 1435, 450, 450],
+			[90, 1570, 450, 450],
+			[30, 1319, 450, 450],
+			[47, 1447, 450, 450]
+		],
+		"text size pt": 12
+	},
+	
+	"ads": {
+		"skip count": 3
+	},
+	
+	"score retention rate": [1, 0.75, 0.5],
+	
+	"hashes": [279933283]
+}
