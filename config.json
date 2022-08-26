@@ -9,7 +9,11 @@
 			"spawn count min and max": [0, 5],
 			"size": 0.2, "": "factor",
 			"spawn radius": [56, null, 56, 56, 56, 56, 56, 56],
-			"fade time": 4, "": "factor"
+			"fade time": 4, "": "factor",
+			"trail": {
+				"step": 50,
+				"offset": 20
+			}
 		},
 		"vanishing speed": 0.1
 	},
@@ -70,7 +74,7 @@
 			[30, 1319, 450, 450],
 			[47, 1447, 450, 450]
 		],
-		"text size pt": 12
+		"text size pt": 18
 	},
 	
 	"ads": {
@@ -79,5 +83,7 @@
 	
 	"score retention rate": [1, 0.75, 0.5],
 	
-	"hashes": [2122534229]
+	"vibrate ms": "100", "": "string",
+	
+	"hashes": [279933283, 2122534229]
 }

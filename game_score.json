@@ -1,7 +1,14 @@
 {
-	"b_debug": false,
+	"b_debug": true,
 	"project id": 1782,
 	"public token": "gLDr1GNdnpmH2kgBSuxrDCuMOz5ltW4k",
 	
-	"remove ads id": 308
+	"remove ads id": 308,
+	
+	"leaderboard": {
+		"orderBy": ["score"],
+		"limit": 9,
+		"includeFields": ["level"],
+		"withMe": "last"
+	}
 }
