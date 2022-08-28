@@ -85,5 +85,10 @@
 	
 	"vibrate ms": "100", "": "string",
 	
-	"hashes": [279933283, 2122534229]
+	"leaderboard": {
+		"text height": 112,
+		"offset y": 936
+	},
+	
+	"hashes": [1463794463, 351860021]
 }

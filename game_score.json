@@ -7,7 +7,7 @@
 	
 	"leaderboard": {
 		"orderBy": ["score"],
-		"limit": 9,
+		"limit": 8,
 		"includeFields": ["level"],
 		"withMe": "last"
 	}
