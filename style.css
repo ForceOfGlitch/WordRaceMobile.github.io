@@ -63,7 +63,22 @@ html, body, canvas {
 
 
 @font-face {
-	font-family: 'comic';
-	src: url('fonts/comic.ttf') format('truetype');
+	font-family: 'comichelvetic_heavy';
+	src: url('fonts/comichelvetic_heavy.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'comichelvetic_light';
+	src: url('fonts/comichelvetic_light.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'comichelvetic_medium';
+	src: url('fonts/comichelvetic_medium.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'roadnumbers';
+	src: url('fonts/roadnumbers.otf') format('opentype');
 }
 
