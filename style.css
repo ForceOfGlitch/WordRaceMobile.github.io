@@ -61,24 +61,11 @@ html, body, canvas {
 	content: " • ";
 }
 
-
-@font-face {
-	font-family: 'comichelvetic_heavy';
-	src: url('fonts/comichelvetic_heavy.otf') format('opentype');
+/* screen reader text */
+.c3-screen-reader-text {
+	position: absolute;
+	width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
 }
-
-@font-face {
-	font-family: 'comichelvetic_light';
-	src: url('fonts/comichelvetic_light.otf') format('opentype');
-}
-
-@font-face {
-	font-family: 'comichelvetic_medium';
-	src: url('fonts/comichelvetic_medium.otf') format('opentype');
-}
-
-@font-face {
-	font-family: 'roadnumbers';
-	src: url('fonts/roadnumbers.otf') format('opentype');
-}
-
